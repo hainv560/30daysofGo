@@ -3,8 +3,11 @@ package main
 import "fmt"
 
 /*
-     - Using var keyword , var declare 1 or more variables at once
+	Notes:
+	 - Go is a statically typed programming language. Which means that the type of every variable is known or inferred by the compiler at compile time.
+	 - Using var keyword , var declare 1 or more variables at once
 	 - "Inside" a function := is shorthand for declaring and initializing a variable
+	 - It is an error to declare a variable without using it.
 */
 
 func main() {

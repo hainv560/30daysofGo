@@ -6,7 +6,7 @@ import (
 )
 
 /*
-In Go, a name is exported if it begins with a capital letter.
+	In Go, a name is exported if it begins with a capital letter.
 */
 
 func main() {

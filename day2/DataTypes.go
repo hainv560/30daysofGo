@@ -6,13 +6,19 @@ import (
 )
 
 /*
+	Types:
 	- Basic types : Numbers,Booleans,Strings
 	- Aggregate types: Array,Struct
 	- Reference types: Pointers,Slices,Maps,Functions,Channels
 	- Interface type
+ 	We will discuss Basic Data Types
 
- 	We will discuss Basic Data Type
-
+	Notes:
+	- Type conversion :  There is no automatic type promotion or conversion
+		i := 55      //int
+		j := 67.8    //float64
+		j = i	// Error
+		sum := i + j  // Error
 */
 
 func main() {
@@ -43,12 +49,4 @@ func main() {
 
 	v := "This is a String"
 	fmt.Println(reflect.TypeOf(v).Kind())
-
-	/*
-		Type conversion :  There is no automatic type promotion or conversion
-		i := 55      //int
-		j := 67.8    //float64
-		sum := i + j  // Error
-		fmt.Println(sum)
-	*/
 }

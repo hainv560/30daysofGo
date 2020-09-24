@@ -3,7 +3,12 @@ package main
 import "fmt"
 
 /*
+	Notes:
 	- The keyword const is used to declare a constant.
+	- Literals are constants without a name
+		+ string constants: "ab"
+		+ integer constants: 123
+		....
 	- Constants in Go can be either typed or untyped.
 		+ Typed constants work like immutable variables can inter-operate only with the same type
 		+ Untyped constants work like literals can inter-operate with similar types.
