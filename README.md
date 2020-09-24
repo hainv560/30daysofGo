@@ -7,6 +7,7 @@
       + https://golang.org/ref/spec
       + https://github.com/golang/go/wiki
       + https://go-talks.appspot.com/github.com/davecheney/presentations/introduction-to-go.slide
+      + https://goo.gl/P7XAXn
    - Opensource
       + https://github.com/avelino/awesome-go
       + https://github.com/golang-standards/project-layout

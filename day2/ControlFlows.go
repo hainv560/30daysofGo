@@ -8,6 +8,7 @@ import "fmt"
 	+ 	You don't need to break at the end of each case. Go's switch statements break implicitly
 	+	To fall through to a subsequent case, use the fallthrough keyword
 	+ 	Unlike C and Java, the case expressions do not need to be constants.
+	+	Switch without an expression is simply a concise way of writing if-else-if chains.
 */
 
 func main() {
@@ -68,6 +69,18 @@ func main() {
 	default:
 		fmt.Println("Default")
 
+	}
+
+	// Switch with no expression
+	switch BMI := 21.0; {
+	case BMI < 18.5:
+		fmt.Println("You're underweight")
+	case BMI >= 18.5 && BMI < 25.0:
+		fmt.Println("Your weight is normal")
+	case BMI >= 25 && BMI < 30.0:
+		fmt.Println("You're overweight")
+	default:
+		fmt.Println("You're obese")
 	}
 
 }
