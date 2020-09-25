@@ -11,6 +11,7 @@
    - Opensource
       + https://github.com/avelino/awesome-go
       + https://github.com/golang-standards/project-layout
+      + https://github.com/bxcodec/go-clean-arch
       + https://github.com/dariubs/GoBooks
       + https://github.com/Alikhll/golang-developer-roadmap
       + https://github.com/quii/learn-go-with-tests/

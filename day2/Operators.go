@@ -14,6 +14,7 @@ import "fmt"
 	- No pointer arithmetic
 	- (++,--) is statement, not a expression: var x = y++ // error
 	- Postfix, not prefix: ++y // Error
+	- Go doesn't have a ternary operator(?:)
 */
 func main() {
 	var x = 5
